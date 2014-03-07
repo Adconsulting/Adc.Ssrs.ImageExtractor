@@ -54,7 +54,7 @@ namespace Adc.Ssrs.ImageExtractor
 
                     var image = Base64ToImage(imageData);
                     var extension = "jpg";
-                    if (MineType == "imgage/png")
+                    if (MineType == "image/png")
                     {
                         extension = "png";
                     }
